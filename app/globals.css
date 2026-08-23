@@ -3,6 +3,8 @@
 :root {
   --background: #050505;
   --foreground: #f8f8f8;
+  --gold: #c8a24c;
+  --gold-light: #e2c26b;
 }
 
 * {
@@ -23,4 +25,26 @@ body {
 button,
 input {
   font: inherit;
+}
+
+::selection {
+  background: var(--gold);
+  color: #050505;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2a2a2a;
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--gold);
 }
