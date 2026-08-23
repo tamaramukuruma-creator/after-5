@@ -1,4 +1,6 @@
-const events = [
+"use client";
+
+import { useState } from "react";const events = [
   {
     title: "Amapiano Nights",
     category: "NIGHTLIFE",
@@ -31,7 +33,7 @@ const categories = [
   "Campus",
 ];
 
-export default function Home() {
+export default function Home() {const [menuOpen, setMenuOpen] = useState(false);
   return (
     <main className="min-h-screen bg-[#050505] text-white">
       
