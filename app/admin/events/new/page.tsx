@@ -8,7 +8,7 @@ const categories = [
   "Nightlife",
   "Music",
   "Networking",
-  "Food & Drink",
+  "Food and drinks",
   "Campus",
 ];
 

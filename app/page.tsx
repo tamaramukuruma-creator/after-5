@@ -23,7 +23,7 @@ const categories = [
   "Nightlife",
   "Music",
   "Networking",
-  "Food & Drink",
+  "Food ,Drinks and fun",
   "Campus",
 ];
 
@@ -31,7 +31,7 @@ const categorySlugs: Record<string, string> = {
   Nightlife: "nightlife",
   Music: "music",
   Networking: "networking",
-  "Food & Drink": "food-drink",
+  "Food ,Drinks and fun": "food-drink",
   Campus: "campus",
 };
 
